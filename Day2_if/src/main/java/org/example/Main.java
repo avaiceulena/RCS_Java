@@ -4,9 +4,21 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        sample3();
+        sample4();
 
     }
+    public static void sample4(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ievadi skaitli!");
+        int skaitlis3 = sc.nextInt();
+
+        if(skaitlis3 > 5){
+            System.out.println("###");
+        }else{
+            System.out.println("####");
+        }
+    }
+
     public static void sample3(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Ievadi pirmo skaitli!");
