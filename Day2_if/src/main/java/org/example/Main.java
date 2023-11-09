@@ -4,9 +4,65 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        sample4();
-
+        taskMD();
     }
+
+    public static void taskMD(){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Ievadi simbolu virkni!");
+        String c = sc.nextLine();
+
+        int len = c.length();
+
+
+        if(c.length() > 10){
+            System.out.println("###");
+        }else if(c.length() == 10){
+            System.out.println("#");
+        }else{
+            System.out.println("##");
+        }
+
+        if(c.length() > 4 && c.length() <= 10){
+            System.out.println("OK");
+        }else{
+            System.out.println("NOT OK");
+        }
+
+//        if(c.length() == 5){
+//            System.out.println("OK");
+//        }else if(c.length() == 6){
+//            System.out.println("OK");
+//        }else if(c.length() == 7){
+//            System.out.println("OK");
+//        }else if(c.length() == 8){
+//            System.out.println("OK");
+//        }else if(c.length() == 9){
+//            System.out.println("OK");
+//        }else if(c.length() == 10){
+//            System.out.println("OK");
+//        }else{
+//            System.out.println("NOT OK");
+//        }
+    }
+    public static void sample5(){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Ievadi vārdu!");
+        String b = sc.nextLine();
+
+        int len = b.length(); // simbolu skaits
+
+        if(b.equals("bbb") || b.length() == 3){
+            System.out.println("ir vienāds");
+
+            // || ir vai
+            // && ir un
+        }
+    }
+
+
     public static void sample4(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Ievadi skaitli!");
