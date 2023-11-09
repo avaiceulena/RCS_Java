@@ -4,9 +4,41 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        sample2();
+        sample3();
 
     }
+    public static void sample3(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ievadi pirmo skaitli!");
+        int skaitlis1 = sc.nextInt();
+
+        // >
+        // <
+        // >=
+        // <=
+        // ==
+        // !=
+
+        if(skaitlis1 > 0){
+            System.out.println("Jā");
+        }else if(skaitlis1 < 0){
+            System.out.println("Nē");
+        }else{
+            System.out.println("Kļūda!");
+        }
+
+        // String if
+        // ir vai nav vienāds
+
+        String a = "agnese";
+        String b = sc.nextLine();
+        if(b.equals("aaa")){
+            System.out.println("ir vienāds");
+        }
+    }
+
+
+
 
     public static void sample2(){
         Scanner sc = new Scanner(System.in);
