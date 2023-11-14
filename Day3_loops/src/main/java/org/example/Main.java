@@ -6,7 +6,43 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        task1();
+        task2();
+    }
+
+    public static void task2(){
+        Scanner sc = new Scanner(System.in);
+
+        //String a = "aaa";
+       // int b = a.length();
+
+
+            int sum = 0;
+        for(int i = 0; i < 5; i++){
+            System.out.println("Ievadi string tipa vērtības!");
+            String c = sc.nextLine();
+            int b = c.length();
+            sum = sum + b;
+
+        }
+        System.out.println("summa ir " + sum);
+    }
+
+    public static void sample2(){
+        Scanner sc = new Scanner(System.in);
+
+        String a = "aaa";
+        int b = a.length();
+
+
+        int sum = 0;
+        for(int i = 0; i < 3; i++){
+            System.out.println("Ievadi skaitli!");
+            int number = sc.nextInt();
+            sum = sum + number;
+            System.out.println(number);
+            System.out.println("-------");
+        }
+        System.out.println("summa ir " + sum);
     }
 
     public static void task1(){
