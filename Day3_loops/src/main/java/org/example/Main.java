@@ -6,9 +6,57 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        task3();
+        task4();
     }
 
+    public static void task4(){
+        Scanner sc = new Scanner(System.in);
+        String input = "";
+
+        while (!input.equals("exit")){
+            System.out.println("Uzmini vārdu!");
+            input = sc.nextLine();
+
+        }
+        System.out.println("Tu uzminēji!");
+    }
+
+
+
+
+    public static void sample6(){
+        //Uztaisīt ciklu, kas darbojas kamēr lietotājs neievada negatīvu skaitli
+        //Izvadīt skaitļu summu
+        Scanner sc = new Scanner(System.in);
+
+        int sum = 0;
+        int input = 0;
+
+        while(input >= 0 ){
+
+            System.out.println("Ievadiet skaitli!");
+            input = sc.nextInt();
+            if(input < 0){
+                break;
+            }
+
+            sum = sum + input;
+        }
+
+        System.out.println("Summa ir " + sum);
+    }
+
+    public static void sample5(){
+        Scanner sc = new Scanner(System.in);
+        String input = "";
+        //cikls darbojas, kamer cilveks neuzraksta vardu "exit"
+        while(!input.equals("exit")){
+            System.out.println("Hello world!");
+
+            System.out.println("Ievadīt simbolu virkni!");
+            input = sc.nextLine();
+        }
+    }
     public static void task3(){
         Scanner sc = new Scanner(System.in);
 
