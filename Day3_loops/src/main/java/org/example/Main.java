@@ -16,13 +16,13 @@ public class Main {
     public static void MD2() {
         Scanner sc = new Scanner(System.in);
 
-        int i = 0;
+
         System.out.println("Lūdzu ievadi 1. skaitli!");
         int input1 = sc.nextInt();
         System.out.println("Tu ievadīji - " + input1);
 
 
-        while (i < input1){
+        while (input1 >= 0){
             System.out.println("Lūdzu ievadi nākamo skaitli!");
             int input2 = sc.nextInt();
 
