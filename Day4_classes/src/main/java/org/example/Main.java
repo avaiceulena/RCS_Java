@@ -10,8 +10,6 @@ public class Main {
 
         sample2(3);
 
-
-
     }
 
     public static void sample2(int a){
@@ -27,15 +25,7 @@ public class Main {
         }
     }
 
-    public static void MD1() {
-
-        for (int i = 1; i <= 5; i++) {
-            for(int j = 1; j <= i; j++){
-                System.out.print("$");
-            }
-            System.out.println();
-        }
-    }
+ 
     public static void  sampleWith(String value1, String value2, String value3 ){
        // System.out.println(value3 + value2 + value1);
 
