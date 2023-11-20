@@ -21,6 +21,8 @@ public class Main {
         int input1 = sc.nextInt();
         System.out.println("Tu ievadīji - " + input1);
 
+        // int last = Integer.MIN_VALUE; - mazākais skaitlis
+        // int max = Integer.MAX_VALUE; - lielākais skaitlis
 
         while (input1 >= 0){
             System.out.println("Lūdzu ievadi nākamo skaitli!");
