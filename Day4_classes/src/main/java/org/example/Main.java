@@ -7,11 +7,22 @@ public class Main {
         //String value3 = "ccc";
 
         //sampleWith(value1, value2, value3);
+        //sample2(3);
 
-        sample2(3);
+
+
+        int sum = task4(6);
+        System.out.println(sum);
 
     }
 
+    public static int task4(int number){
+        int sum = 0;
+        for(int i = 0; i <= number; i++){
+            sum = sum + i;
+        }
+        return sum;
+    }
     public static void sample2(int a){
         if(a >= 1){
             for(int i = 0; i <= a; i++){
