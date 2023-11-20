@@ -8,7 +8,7 @@ public class Main {
 
         //sampleWith(value1, value2, value3);
 
-        sample2(0);
+        sample2(3);
 
 
 
