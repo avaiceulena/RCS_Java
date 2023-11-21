@@ -11,17 +11,22 @@ public class Main {
 
 
 
-        int sum = task4(6);
+        int sum = task4(-1);
         System.out.println(sum);
 
     }
 
     public static int task4(int number){
         int sum = 0;
-        for(int i = 0; i <= number; i++){
-            sum = sum + i;
+        if(number > 0){
+            for(int i = 0; i <= number; i++){
+                sum = sum + i;
+            }
+        } else {
+            sum = 0;
         }
         return sum;
+
     }
     public static void sample2(int a){
         if(a >= 1){
