@@ -27,6 +27,16 @@ public class Main {
         }
     }
 
+    // Vienkāršāks variants
+    public static void task6 (String a, int b){
+        String symbol = "";
+        for(int i = 1; i <= b; i++){
+            symbol = symbol + a;
+            System.out.println(symbol);
+        }
+    }
+
+
     public static int task4(int number){
         int sum = 0;
         if(number > 0){
