@@ -4,8 +4,6 @@ public class Main {
     public static void main(String[] args) {
        int c =  task2(1, 4);
         System.out.println(c);
-        
-
     }
 
     public static int task2 (int num1, int num2){
@@ -15,6 +13,4 @@ public class Main {
             return num2;
         }
     }
-
-
 }
