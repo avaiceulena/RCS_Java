@@ -11,8 +11,9 @@ public class Tasks {
             System.out.println("Ievadi skaitli!");
             int input = sc.nextInt();
 
-            sum = (sum + input) / count;
+            sum = (sum + input);
+            //sum+=input;
         }
-        return sum;
+        return sum / count;
     }
 }
