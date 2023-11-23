@@ -1,7 +1,6 @@
 package org.example;
 
 import java.util.Scanner;
-
 public class Calculations {
     public static double calculationOptions(double input1, double input2, String operation){
 
