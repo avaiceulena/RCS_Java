@@ -6,7 +6,8 @@ public class Main {
 
 //        System.out.println(Tasks.task1(number));
 //        Samples.run();
-        Tasks.task2();
+//        Tasks.task2();
+        Tasks.task3();
 
 
     }
