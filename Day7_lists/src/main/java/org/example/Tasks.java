@@ -33,19 +33,28 @@ public class Tasks {
         System.out.println("Lūdzu ievadi vērtības");
         for(int i = 0; i <= input1; i++){
             stringInput.add(sc.nextLine());
-            stringInput.get(i);
         }
 
-        System.out.println("Vai vēlies izvadīt visu vai konkrētu vērtību?");
+        System.out.println("Ievadi 1, ja gribi izvadīt visu, 2, ja vērtību!");
         String input2 = sc.nextLine();
 
-//        if(input2.equals("VISU")){
-//            System.out.println(stringInput.get(i));
-//        }
+        if(input2.equals("1")){
 
+            for(String el : stringInput){
+                System.out.println(el);
+            }
 
+        }else if (input2.equals("2")){
 
+            System.out.println("Ievadi indeksu!");
+            int a = sc.nextInt();
+            System.out.println(stringInput.get(a));
+
+        }else {
+            System.out.println("Kļūda!");
+        }
     }
+
     public static double task1(double[] number){
 
         double largest = number[0];
