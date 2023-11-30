@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class Tasks {
     public static int task3() {
         Scanner sc = new Scanner(System.in);
-//        System.out.println("Ievadi skaitli");
-        int num = 0;
+        int num = Integer.MIN_VALUE;
         boolean loop = false;
         while (!loop) {
             try {
