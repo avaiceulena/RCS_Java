@@ -18,20 +18,30 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
+        Book pr = new Book();
         System.out.println("Ievadi grāmatas autoru:");
-        String input = sc.nextLine();
+        pr.autors = sc.nextLine();
 
         System.out.println("Ievadi grāmatas nosaukumu:");
-        input = sc.nextLine();
+        pr.nosaukums = sc.nextLine();
 
         System.out.println("Ievadi izdošanas gadu:");
-        int input2 = sc.nextInt();
-
-        Book pr = new Book();
-        pr.autors = input;
-        pr.nosaukums = input;
-        pr.izdošanasGads = input2;
-
+        pr.izdošanasGads = sc.nextInt();
         pr.printInfo();
+
+        System.out.println("---------");
+
+        Book gr = new Book();
+
+        System.out.println("Ievadi grāmatas autoru:");
+        gr.autors = sc.nextLine();
+
+        System.out.println("Ievadi grāmatas nosaukumu:");
+        gr.nosaukums = sc.nextLine();
+
+        System.out.println("Ievadi izdošanas gadu:");
+        gr.izdošanasGads = sc.nextInt();
+
+        gr.printInfo();
     }
 }
