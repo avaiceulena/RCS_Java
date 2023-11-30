@@ -9,14 +9,13 @@ public class Tasks {
     public static void task3(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Ievadi skaitli");
-        int num ;
+        int num;
         try{
             num = sc.nextInt();
             System.out.println(num);
-
         }
         catch (Exception e){
-            System.out.println("0");
+            num = 0;
         }
     }
 
