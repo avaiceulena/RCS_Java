@@ -15,30 +15,28 @@ public class Main {
 //        st.course = 1;
 //
 //        st.print();
+        sample2();
 
+    }
+
+    public static void sample2(){
         Scanner sc = new Scanner(System.in);
 
         Book pr = new Book();
         System.out.println("Ievadi grāmatas autoru:");
         pr.autors = sc.nextLine();
-
         System.out.println("Ievadi grāmatas nosaukumu:");
         pr.nosaukums = sc.nextLine();
-
         System.out.println("Ievadi izdošanas gadu:");
         pr.izdošanasGads = sc.nextInt();
+        sc.nextLine();
         pr.printInfo();
 
-        System.out.println("---------");
-
         Book gr = new Book();
-
         System.out.println("Ievadi grāmatas autoru:");
         gr.autors = sc.nextLine();
-
         System.out.println("Ievadi grāmatas nosaukumu:");
         gr.nosaukums = sc.nextLine();
-
         System.out.println("Ievadi izdošanas gadu:");
         gr.izdošanasGads = sc.nextInt();
 
