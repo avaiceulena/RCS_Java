@@ -60,13 +60,4 @@ public class Main {
         }
         return studentList;
     }
-
-//    public static List<Student> printArray(ArrayList<String> arr){
-//        ArrayList<String> sublist = new ArrayList<>();
-//        for(String a : sublist){
-//            sublist.get(a);
-//        }
-//        return sublist;
-//    }
-
 }
