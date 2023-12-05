@@ -6,15 +6,24 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        List<Student> lst= new ArrayList<>();
-        lst.add(new Student("test", "aaa", 1));
-        lst.add(new Student("aa", "dd",1));
+//        List<Student> lst= new ArrayList<>();
+//        lst.add(new Student("test", "aaa", 1));
+//        lst.add(new Student("aa", "dd",1));
+//
+//        //printStudentList(lst);
+//
+//        List<Student> studentList = getStudentLst(2);
+//
+//        printStudentList(studentList);
+        List<Pet> petList = Tools.createPetList(2);
+        Tools.addPet(petList);
+        printList(petList);
+    }
 
-        //printStudentList(lst);
-
-        List<Student> studentList = getStudentLst(2);
-
-        printStudentList(studentList);
+    private static void printList(List<Pet> petList){
+        for(var pet : petList){
+            pet.printPet();
+        }
     }
     public static void MD(){
         List<Student> studentList = new ArrayList<>();
