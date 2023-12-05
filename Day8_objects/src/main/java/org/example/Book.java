@@ -5,6 +5,7 @@ public class Book {
     public String nosaukums;
     public int izdošanasGads;
 
+
     public void printInfo(){
         System.out.println(autors);
         System.out.println(nosaukums);

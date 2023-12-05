@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -9,13 +11,36 @@ public class Main {
         // statiskās metodes ir ērtas ja nav aprakstošas informācijas
         //statiska metode izpildās neatkarīgi no objektiem
 
-//        Samples st = new Samples(); //objekts
-//        st.name = "Jānis";
-//        st.lastName = "Bērziņš";
-//        st.course = 1;
-//
-//        st.print();
+        Samples st = new Samples(); //objekts
+        st.name = "Jānis";
+        st.lastName = "Bērziņš";
+        st.course = 1;
+
+        st.print();
         sample2();
+
+    }
+
+    public static void sample3(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Name, Last name and course:");
+        String inputOut = sc.nextLine();
+
+        Samples op1 = new Samples();
+        Samples op2 = new Samples();
+        Samples op3 = new Samples();
+        Samples op4 = new Samples();
+        Samples op5 = new Samples();
+
+
+        List<Samples> studentList = new ArrayList<>();
+        studentList.add(sc.nextLine());
+
+
+        for(int i = 0; i < 5; i++){
+
+        }
+
 
     }
 
